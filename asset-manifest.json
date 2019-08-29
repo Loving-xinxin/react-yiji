@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-yiji/static/css/main.b7394ae9.chunk.css",
-    "main.js": "/react-yiji/static/js/main.671689cb.chunk.js",
-    "main.js.map": "/react-yiji/static/js/main.671689cb.chunk.js.map",
+    "main.css": "/react-yiji/static/css/main.b3819ba7.chunk.css",
+    "main.js": "/react-yiji/static/js/main.53cf89db.chunk.js",
+    "main.js.map": "/react-yiji/static/js/main.53cf89db.chunk.js.map",
     "runtime~main.js": "/react-yiji/static/js/runtime~main.df17a495.js",
     "runtime~main.js.map": "/react-yiji/static/js/runtime~main.df17a495.js.map",
     "static/css/2.dce8a878.chunk.css": "/react-yiji/static/css/2.dce8a878.chunk.css",
-    "static/js/2.38f1d7e7.chunk.js": "/react-yiji/static/js/2.38f1d7e7.chunk.js",
-    "static/js/2.38f1d7e7.chunk.js.map": "/react-yiji/static/js/2.38f1d7e7.chunk.js.map",
+    "static/js/2.7f528e4f.chunk.js": "/react-yiji/static/js/2.7f528e4f.chunk.js",
+    "static/js/2.7f528e4f.chunk.js.map": "/react-yiji/static/js/2.7f528e4f.chunk.js.map",
     "index.html": "/react-yiji/index.html",
-    "precache-manifest.e0da6f9cc9fc0c41d43ce2171fff4c6f.js": "/react-yiji/precache-manifest.e0da6f9cc9fc0c41d43ce2171fff4c6f.js",
+    "precache-manifest.40e258e80cc731440fc135ff559fa76d.js": "/react-yiji/precache-manifest.40e258e80cc731440fc135ff559fa76d.js",
     "service-worker.js": "/react-yiji/service-worker.js",
     "static/css/2.dce8a878.chunk.css.map": "/react-yiji/static/css/2.dce8a878.chunk.css.map",
-    "static/css/main.b7394ae9.chunk.css.map": "/react-yiji/static/css/main.b7394ae9.chunk.css.map",
+    "static/css/main.b3819ba7.chunk.css.map": "/react-yiji/static/css/main.b3819ba7.chunk.css.map",
     "static/media/iconfont.css": "/react-yiji/static/media/iconfont.fe72ef7d.eot"
   }
 }
