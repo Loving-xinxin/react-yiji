@@ -444,7 +444,7 @@ const initialState = {
           {
             userId: 'a6',
             id: 'f21',
-            a+  11  uthor: '阿德',
+            author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
             time: '2016.8.21',
