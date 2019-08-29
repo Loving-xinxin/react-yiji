@@ -1,4 +1,4 @@
-// import { ADD_COMMENT } from '../actionTypes';
+import { ADD_COMMENT } from '../actionTypes';
 const initialState = {
   show: [
     {
@@ -27,6 +27,7 @@ const initialState = {
         comment: [
           {
             userId: '1',
+            id: 'f1',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -34,7 +35,8 @@ const initialState = {
             content: '挺好的，特别喜欢这种风格'
           },
           {
-            userId: '2',
+            userId: '1',
+            id: 'f2',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -69,7 +71,8 @@ const initialState = {
         ],
         comment: [
           {
-            userId: '1',
+            userId: '2',
+            id: 'f3',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -78,6 +81,7 @@ const initialState = {
           },
           {
             userId: '2',
+            id: 'f4',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -110,7 +114,8 @@ const initialState = {
         ],
         comment: [
           {
-            userId: '1',
+            userId: '3',
+            id: 'f5',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -118,7 +123,8 @@ const initialState = {
             content: '挺好的，特别喜欢这种风格'
           },
           {
-            userId: '2',
+            userId: '3',
+            id: 'f6',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -149,7 +155,8 @@ const initialState = {
         ],
         comment: [
           {
-            userId: '1',
+            userId: '4',
+            id: 'f7',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -157,7 +164,8 @@ const initialState = {
             content: '挺好的，特别喜欢这种风格'
           },
           {
-            userId: '2',
+            userId: '4',
+            id: 'f8',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -188,7 +196,8 @@ const initialState = {
         ],
         comment: [
           {
-            userId: '1',
+            userId: '5',
+            id: 'f9',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -196,7 +205,8 @@ const initialState = {
             content: '挺好的，特别喜欢这种风格'
           },
           {
-            userId: '2',
+            userId: '5',
+            id: 'f10',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -227,7 +237,8 @@ const initialState = {
         ],
         comment: [
           {
-            userId: '1',
+            userId: 'a1',
+            id: 'f11',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -235,7 +246,8 @@ const initialState = {
             content: '挺好的，特别喜欢这种风格'
           },
           {
-            userId: '2',
+            userId: 'a2',
+            id: 'f12',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -266,7 +278,8 @@ const initialState = {
         ],
         comment: [
           {
-            userId: '1',
+            userId: 'a2',
+            id: 'f13',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -274,7 +287,8 @@ const initialState = {
             content: '挺好的，特别喜欢这种风格'
           },
           {
-            userId: '2',
+            userId: 'a2',
+            id: 'f14',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -305,7 +319,8 @@ const initialState = {
         ],
         comment: [
           {
-            userId: '1',
+            userId: 'a3',
+            id: 'f15',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -313,7 +328,8 @@ const initialState = {
             content: '挺好的，特别喜欢这种风格'
           },
           {
-            userId: '2',
+            userId: 'a3',
+            id: 'f16',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -344,7 +360,8 @@ const initialState = {
         ],
         comment: [
           {
-            userId: '1',
+            userId: 'a4',
+            id: 'f17',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -352,7 +369,8 @@ const initialState = {
             content: '挺好的，特别喜欢这种风格'
           },
           {
-            userId: '2',
+            userId: 'a4',
+            id: 'f18',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -383,7 +401,8 @@ const initialState = {
         ],
         comment: [
           {
-            userId: '1',
+            userId: 'a5',
+            id: 'f19',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -391,7 +410,8 @@ const initialState = {
             content: '挺好的，特别喜欢这种风格'
           },
           {
-            userId: '2',
+            userId: 'a5',
+            id: 'f20',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -422,15 +442,17 @@ const initialState = {
         ],
         comment: [
           {
-            userId: '1',
-            author: '阿德',
+            userId: 'a6',
+            id: 'f21',
+            a+  11  uthor: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
             time: '2016.8.21',
             content: '挺好的，特别喜欢这种风格'
           },
           {
-            userId: '2',
+            userId: 'a6',
+            id: 'f22',
             author: '阿德',
             avater:
               'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png',
@@ -444,9 +466,15 @@ const initialState = {
 };
 
 export default (state = initialState, action) => {
+  const newState = { ...state };
   switch (action.type) {
-    // case ADD_COMMENT:
-    //   return [action.newComment, ...state];
+    case ADD_COMMENT:
+      console.log(newState.show);
+      console.log(action);
+      newState.show
+        .find(ele => ele.id === action.payload.userId)
+        .info.comment.push(action.payload);
+      return newState;
     default:
       return state;
   }

@@ -3,13 +3,14 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import './showcontent.css';
 import '../static/iconfont.css';
+import { addComment } from '../../store/action';
 class ShowContent extends Component {
   state = {
     isRed: false,
     isMap: false,
     isShare: false,
-    isCommnet: false
-    // val: 'xxx'
+    isCommnet: false,
+    val: 'xxx'
   };
   changeColor = () => {
     this.setState({
@@ -31,21 +32,28 @@ class ShowContent extends Component {
       isCommnet: !this.state.isCommnet
     });
   };
-  // addComment = () => {
-  //   const { val } = this.state;
-  //   const { id } = this.props.match.params;
-  //   if (val.trim()) {
-  //     this.props.addComment({ content: val, id: id }, () =>
-  //       this.setState({
-  //         val: ''
-  //       })
-  //     );
-  //   }
-  // };
+  addComment = e => {
+    const { val } = this.state;
+    const userId = this.props.match.params.id;
+    if (e.keyCode === 13) {
+      this.props.addComment({
+        userId: userId,
+        id: new Date().getTime(),
+        author: '阿新',
+        time: '2016.8.21',
+        content: val,
+        avater:
+          'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png'
+      });
+      console.log(userId);
+    }
+  };
   render() {
+    console.log(this.props.match.params);
     const { isRed, isMap, isShare, isCommnet } = this.state;
     const { id } = this.props.match.params;
     const { show } = this.props;
+    // console.log(this.props);
     const ShowContent = show.find(item => item.id === id);
     return (
       <div className="personal-wrapper">
@@ -80,7 +88,7 @@ class ShowContent extends Component {
               <div className="comment-Content">
                 <ul>
                   {ShowContent.info.comment.map(ele => (
-                    <li key={ele.userId}>
+                    <li key={ele.id}>
                       <img src={ele.avater} alt="" />
                       <div>
                         <span>{ele.author}</span>
@@ -188,12 +196,14 @@ class ShowContent extends Component {
             <section>
               <textarea
                 placeholder="说点什么......"
-                // value={this.state.val}
-                // onChange={event => {
-                //   this.setState({
-                //     val: event.target.value
-                //   });
-                // }}
+                onKeyDown={event => {
+                  this.addComment(event);
+                }}
+                onChange={event => {
+                  this.setState({
+                    val: event.target.value
+                  });
+                }}
               />
               <div className="pic">
                 <img
@@ -218,4 +228,7 @@ const mapStateToProps = state => {
     show: state.show.show
   };
 };
-export default connect(mapStateToProps)(ShowContent);
+export default connect(
+  mapStateToProps,
+  { addComment }
+)(ShowContent);
