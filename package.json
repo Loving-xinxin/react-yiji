@@ -16,11 +16,13 @@
     "redux": "^4.0.4",
     "swiper": "^4.5.0"
   },
+  "homepage": "http://Loving-xinxin.github.io/react-yiji",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "react-hot-loader": "^4.5.3",
     "redux-logger": "^3.0.6"
   }
