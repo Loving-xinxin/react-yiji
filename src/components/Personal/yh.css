@@ -1,0 +1,15 @@
+.yh {
+  height: 100%;
+}
+.yh > div > div {
+  display: flex;
+  justify-content: flex-start;
+}
+.yh > div > div > .pic {
+  display: block;
+  width: 4.95rem;
+  height: 4rem;
+}
+.yh > div > div > .pic:first-child {
+  margin-right: 0.1rem;
+}

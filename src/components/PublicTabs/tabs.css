@@ -1,0 +1,50 @@
+.showing-wrap {
+  position: relative;
+}
+.showing-wrap > img {
+  width: 100%;
+  height: 5.3rem;
+}
+.showing-wrap .sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 60%;
+  height: 5.3rem;
+}
+.showing-wrap .sidebar > div {
+  margin-top: 4.58rem;
+  margin-left: 1.8rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.showing-wrap .sidebar > div > .iconfont {
+  font-size: 0.45rem;
+  margin-right: 0.05rem;
+}
+.showing-wrap .sidebar > div > .iconfont:first-child {
+  margin-right: 0.4rem;
+}
+.showing-wrap .sidebar > div > span {
+  font-size: 0.2rem;
+  color: #fafafa;
+  font-weight: lighter;
+  margin-right: 0.2rem;
+}
+.showing-wrap .sidebar .last_day {
+  display: block;
+  background-color: #c93b2f;
+  width: 1.95rem;
+  height: 0.65rem;
+  line-height: 0.65rem;
+  text-align: center;
+  border-radius: 0.3rem 0rem 0rem 0.3rem;
+  font-size: 0.35rem;
+  color: #edffff;
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+  font-weight: initial;
+}

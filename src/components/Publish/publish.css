@@ -1,0 +1,67 @@
+.publish {
+  margin: 0.4rem;
+}
+.publish header {
+  padding: 0.1rem;
+  border-bottom: 1px solid #000;
+}
+.publish header > .top {
+  width: 5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 3.6rem;
+}
+.publish header > .top span {
+  color: #d20003;
+  font-size: 0.5rem;
+}
+.publish header > .top i {
+  color: #d20003;
+  font-size: 0.65rem;
+}
+.publish section > textarea {
+  width: 6rem;
+  padding-top: 0.5rem;
+  outline: none;
+  resize: none;
+  border: none;
+}
+.publish section > .pic > img:first-child {
+  height: 6rem;
+}
+.publish section > .pic > img {
+  display: block;
+  width: 9rem;
+}
+.publish .icon-photo {
+  display: block;
+  color: #d20003;
+  font-size: 0.8rem;
+  margin: 0.2rem 0;
+}
+.publish section .location {
+  border-top: 1px solid #000;
+  width: 9rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.publish section .location > div:first-child {
+  margin-right: 2rem;
+}
+.publish section .location > div {
+  text-align: center;
+}
+.publish section .location > div > i {
+  color: #d52315;
+  font-size: 0.5rem;
+  margin-right: 0.1rem;
+}
+.publish section .location > div > span {
+  color: #080808;
+  font-size: 0.36rem;
+}

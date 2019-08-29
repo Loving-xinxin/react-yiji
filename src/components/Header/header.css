@@ -1,0 +1,28 @@
+header {
+  width: 100%;
+  padding: 0.3rem;
+  position: fixed;
+  top: 0rem;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #f0f0f2;
+  z-index: 1000;
+}
+header > .pic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  width: 8rem;
+  margin: 0 auto;
+}
+header img {
+  display: block;
+  width: 3rem;
+  height: 0.5rem;
+  margin-left: 2rem;
+}
+header .iconfont {
+  color: #2a2836;
+  font-size: 0.7rem;
+}

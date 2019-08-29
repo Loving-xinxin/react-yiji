@@ -1,0 +1,94 @@
+.login-wrapper {
+  background-image: url('https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/login-bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.login-wrapper .top {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.login-wrapper .content {
+  margin-top: 4.8rem;
+}
+.login-wrapper .content > input {
+  background: none;
+  outline: none;
+  border: none;
+  text-align: center;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.76rem 0 0.46rem 0;
+  border-bottom: 1px solid #514e49;
+  font-size: 0.36rem;
+  font-weight: inherit;
+}
+.login-wrapper .content .user {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 0.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.login-wrapper .content .user div > a {
+  display: inline-block;
+  font-size: 0.46rem;
+  color: #50504e;
+  font-weight: bold;
+}
+.login-wrapper .foot {
+  margin-bottom: 0.5rem;
+}
+.login-wrapper .foot .foot-up {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.login-wrapper .foot .foot-up .gou {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50% 50%;
+  text-align: center;
+  background-color: #fff;
+  color: #e4e2d3;
+}
+.login-wrapper .foot .foot-up span {
+  font-size: 0.36rem;
+}
+.login-wrapper .foot .foot-up .white {
+  color: #fcfbf7;
+}
+.login-wrapper .foot .foot-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.6rem;
+  border-top: 1px solid #f7f1f5;
+}
+.login-wrapper .foot .foot-bottom > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 3.7rem;
+  text-align: center;
+  border-right: 1px solid #fff;
+}
+.login-wrapper .foot .foot-bottom > div:last-child {
+  border-right: none;
+}
+.login-wrapper .foot .foot-bottom > div > img {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.66rem;
+  margin-left: 0.6rem;
+}
+.login-wrapper .foot .foot-bottom > div > span {
+  font-size: 0.36rem;
+  margin-left: 0.3rem;
+}

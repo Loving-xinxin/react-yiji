@@ -1,0 +1,10 @@
+.IndexSwiper {
+  margin-top: 1.34rem;
+}
+.IndexSwiper .swiper-pagination-bullet-active {
+  background-color: #d52315;
+}
+.IndexSwiper .swiper-container .swiper-slide > img {
+  width: 100%;
+  height: 4.6rem;
+}

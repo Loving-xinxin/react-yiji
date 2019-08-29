@@ -1,0 +1,21 @@
+.publicTabs {
+  padding-bottom: 1.52rem;
+}
+.publicTabs .el-tabs__nav-scroll .el-tabs__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.2rem;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  padding: 0 1.5rem;
+  background-image: url('https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/tabs-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.publicTabs .el-tabs__item {
+  width: 6rem;
+  font-size: 0.46rem;
+  color: #fff;
+  margin-left: 1rem;
+}

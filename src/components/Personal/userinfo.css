@@ -1,0 +1,122 @@
+.userinfo {
+  background-color: #dee7ec;
+}
+.userinfo header {
+  width: 100%;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  position: fixed;
+  top: 0rem;
+  background-color: #f0f0f2;
+  z-index: 1000;
+}
+.userinfo header > .pic {
+  width: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+.userinfo header > .pic > .logo {
+  display: block;
+  width: 3rem;
+  height: 0.5rem;
+  margin-top: 0.5rem;
+}
+.userinfo header > .pic > .pre {
+  display: block;
+  width: 0.2rem;
+  height: 0.4rem;
+  margin-top: 0.5rem;
+}
+.userinfo section {
+  margin-top: 1.8rem;
+}
+.userinfo section ul {
+  background-color: #f0f0f2;
+}
+.userinfo section ul > li {
+  width: 9rem;
+  margin: 0rem 0.6rem 0 0.3rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #bcc0c3;
+  background-image: url('https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/user-info-next_07.png');
+  background-position: 95%;
+  background-repeat: no-repeat;
+  background-size: 0.3rem;
+}
+.userinfo section ul > li:last-child {
+  border-bottom: none;
+}
+.userinfo section ul > li > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 7.5rem;
+}
+.userinfo section ul > li > div span {
+  font-size: 0.3rem;
+  text-align: left;
+}
+.userinfo section ul > li > div span {
+  font-size: 0.4rem;
+  color: #0f1110;
+}
+.userinfo section ul > li > div > .avater {
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 0.1rem;
+}
+.userinfo section ul > li > div > .dangerous {
+  display: block;
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.userinfo section ul > li > div > .word {
+  font-size: 0.2rem;
+  color: #929294;
+}
+.userinfo section .bottom > div {
+  font-size: 0.3rem;
+  color: #889399;
+  background-color: #bdc8ce;
+  padding: 0.15rem 0.3rem;
+}
+.userinfo section .bottom > img {
+  width: 100%;
+  height: 4.6rem;
+}
+.userinfo-wrapper .isAvater {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 0;
+  z-index: 10000;
+}
+.userinfo-wrapper .isAvater > ul {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 10000;
+  background-color: #e5e5e5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+.userinfo-wrapper .isAvater > ul > li {
+  width: 8.5rem;
+  padding: 0.4rem 0rem;
+  text-align: center;
+  color: #010000;
+  font-size: 0.3rem;
+}
+.userinfo-wrapper .isAvater > ul > li:nth-child(2) {
+  border-bottom: 1px solid #da2218;
+}
+.userinfo-wrapper .isAvater > ul > li:nth-child(3) {
+  font-size: 0.5rem;
+}

@@ -1,0 +1,82 @@
+.setting {
+  width: 100%;
+  height: 100%;
+  background-color: #dfe8ed;
+}
+.setting section ul {
+  background-color: #f0f0f2;
+  border-bottom: 1px solid #bcc0c3;
+  box-shadow: 0px 0px 1px 0px #ced3d7;
+}
+.setting section ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  width: 9rem;
+  margin: 0rem 0.1rem 0 0.4rem;
+  padding: 0.1rem 0;
+  border-bottom: 1px solid #bcc0c3;
+}
+.setting section ul:first-child {
+  margin-bottom: 0.3rem;
+}
+.setting section ul:first-child > li:nth-child(2) {
+  background-image: url('https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/user-info-next_07.png');
+  background-position: 95%;
+  background-repeat: no-repeat;
+  background-size: 0.25rem;
+}
+.setting section ul:first-child > li:nth-child(3) {
+  border: none;
+}
+.setting section ul > li > span {
+  font-size: 0.35rem;
+  color: #212320;
+}
+.setting section ul > li > .switch {
+  font-size: 0.3rem;
+  color: #212320;
+  margin-right: 0.5rem;
+}
+.setting section ul > li > .switch > span {
+  font-size: 0.3rem;
+  color: #d22a1d;
+}
+.setting section ul > li > .switch > span:last-child {
+  font-size: 0.3rem;
+  color: #000;
+}
+.setting section ul:last-child > li:nth-child(4) {
+  border: none;
+}
+.setting section .edition {
+  width: 9rem;
+  height: 5.76rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/User-info-bg_02.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+.setting section .edition > a {
+  background-color: #d32618;
+  width: 4rem;
+  line-height: 1rem;
+  height: 1rem;
+  text-align: center;
+  color: #fffeee;
+  border-radius: 0.5rem;
+  font-size: 0.5rem;
+}
+.setting section .edition > div {
+  color: #080405;
+  font-size: 0.3rem;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+}
