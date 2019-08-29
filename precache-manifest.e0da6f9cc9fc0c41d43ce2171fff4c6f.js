@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de0e893117e8ae4f5a27ba0a9f09330a",
+    "revision": "1e28dbb375a72dd435a2d397f6324e56",
     "url": "/react-yiji/index.html"
   },
   {
-    "revision": "924db0e3e7372609bef9",
+    "revision": "177b050afd82f377ed71",
     "url": "/react-yiji/static/css/2.dce8a878.chunk.css"
   },
   {
-    "revision": "8d2309cfd44de55f8022",
+    "revision": "7b468c3d5e99193c62c6",
     "url": "/react-yiji/static/css/main.b7394ae9.chunk.css"
   },
   {
-    "revision": "924db0e3e7372609bef9",
-    "url": "/react-yiji/static/js/2.f54261ea.chunk.js"
+    "revision": "177b050afd82f377ed71",
+    "url": "/react-yiji/static/js/2.38f1d7e7.chunk.js"
   },
   {
-    "revision": "8d2309cfd44de55f8022",
-    "url": "/react-yiji/static/js/main.e904350e.chunk.js"
+    "revision": "7b468c3d5e99193c62c6",
+    "url": "/react-yiji/static/js/main.671689cb.chunk.js"
   },
   {
     "revision": "76e3e25619ead56721a2",
