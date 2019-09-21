@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-yiji/static/css/main.b3819ba7.chunk.css",
+    "main.css": "/react-yiji/static/css/main.fb63e645.chunk.css",
     "main.js": "/react-yiji/static/js/main.53cf89db.chunk.js",
     "main.js.map": "/react-yiji/static/js/main.53cf89db.chunk.js.map",
     "runtime~main.js": "/react-yiji/static/js/runtime~main.df17a495.js",
@@ -9,10 +9,10 @@
     "static/js/2.7f528e4f.chunk.js": "/react-yiji/static/js/2.7f528e4f.chunk.js",
     "static/js/2.7f528e4f.chunk.js.map": "/react-yiji/static/js/2.7f528e4f.chunk.js.map",
     "index.html": "/react-yiji/index.html",
-    "precache-manifest.40e258e80cc731440fc135ff559fa76d.js": "/react-yiji/precache-manifest.40e258e80cc731440fc135ff559fa76d.js",
+    "precache-manifest.0c00e8ebbc02c200e236c58475a7d690.js": "/react-yiji/precache-manifest.0c00e8ebbc02c200e236c58475a7d690.js",
     "service-worker.js": "/react-yiji/service-worker.js",
     "static/css/2.dce8a878.chunk.css.map": "/react-yiji/static/css/2.dce8a878.chunk.css.map",
-    "static/css/main.b3819ba7.chunk.css.map": "/react-yiji/static/css/main.b3819ba7.chunk.css.map",
+    "static/css/main.fb63e645.chunk.css.map": "/react-yiji/static/css/main.fb63e645.chunk.css.map",
     "static/media/iconfont.css": "/react-yiji/static/media/iconfont.fe72ef7d.eot"
   }
 }
