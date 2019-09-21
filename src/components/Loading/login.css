@@ -2,6 +2,7 @@
   background-image: url('https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/login-bg.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
 }
