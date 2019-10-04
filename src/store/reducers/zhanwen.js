@@ -1,3 +1,4 @@
+import { ADD_C } from '../actionTypes';
 const initialState = {
   zhanwen: [
     {
@@ -477,7 +478,17 @@ const initialState = {
 };
 
 export default (state = initialState, action) => {
+  const newState = { ...state };
   switch (action.type) {
+    case ADD_C:
+      console.log(newState.zhanwen);
+      console.log(action);
+      newState.zhanwen
+        .find(ele => ele.id === action.payload.newComment.userId)
+        .info.comment.push(action.payload.newComment);
+      action.payload.clear();
+      action.payload.back();
+      return newState;
     default:
       return state;
   }

@@ -41,6 +41,8 @@
 }
 .login-wrapper .foot {
   margin-bottom: 0.5rem;
+  position: fixed;
+  bottom: 0;
 }
 .login-wrapper .foot .foot-up {
   display: flex;

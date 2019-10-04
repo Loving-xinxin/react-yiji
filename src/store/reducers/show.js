@@ -472,8 +472,10 @@ export default (state = initialState, action) => {
       console.log(newState.show);
       console.log(action);
       newState.show
-        .find(ele => ele.id === action.payload.userId)
-        .info.comment.push(action.payload);
+        .find(ele => ele.id === action.payload.newComment.userId)
+        .info.comment.push(action.payload.newComment);
+      action.payload.clear();
+      action.payload.back();
       return newState;
     default:
       return state;

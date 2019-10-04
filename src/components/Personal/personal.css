@@ -69,6 +69,7 @@
 .user section .nav > .title {
   font-size: 0.5rem;
   color: #151515;
+  margin-top: 0.4rem;
 }
 .user section .nav .all {
   width: 1.1rem;
@@ -92,7 +93,7 @@
   align-items: center;
   width: 10rem;
   margin: 0 auto;
-  padding: 0.3rem 0.1rem 0.2rem 0.1rem;
+  padding: 0.3rem 0.1rem 0.5rem 0.1rem;
 }
 .user section > .pic > div {
   margin-right: 0.1rem;

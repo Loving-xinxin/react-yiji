@@ -10,7 +10,7 @@ class ShowContent extends Component {
     isMap: false,
     isShare: false,
     isCommnet: false,
-    val: 'xxx'
+    val: ''
   };
   changeColor = () => {
     this.setState({
@@ -37,6 +37,28 @@ class ShowContent extends Component {
     const userId = this.props.match.params.id;
     if (e.keyCode === 13) {
       this.props.addComment({
+        clear: this.clear,
+        back: this.back,
+        newComment: {
+          userId: userId,
+          id: new Date().getTime(),
+          author: '阿新',
+          time: '2016.8.21',
+          content: val,
+          avater:
+            'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png'
+        }
+      });
+      console.log(userId);
+    }
+  };
+  add = () => {
+    const { val } = this.state;
+    const userId = this.props.match.params.id;
+    this.props.addComment({
+      clear: this.clear,
+      back: this.back,
+      newComment: {
         userId: userId,
         id: new Date().getTime(),
         author: '阿新',
@@ -44,12 +66,23 @@ class ShowContent extends Component {
         content: val,
         avater:
           'https://dev.tencent.com/u/Loving-xinxin/p/react-yiji/git/raw/master/assent/index-info-avater_11.png'
-      });
-      console.log(userId);
-    }
+      }
+    });
+  };
+  clear = () => {
+    this.setState({
+      val: ''
+    });
+    console.log(44444);
+  };
+  back = e => {
+    this.setState({
+      isCommnet: !this.state.isCommnet
+    });
+    console.log('123');
   };
   render() {
-    console.log(this.props.match.params);
+    // console.log(this.props.match.params);
     const { isRed, isMap, isShare, isCommnet } = this.state;
     const { id } = this.props.match.params;
     const { show } = this.props;
@@ -190,7 +223,7 @@ class ShowContent extends Component {
                   onClick={this.changeComment}
                 ></i>
                 <span>评论</span>
-                <i className="iconfont icon-fabu1" />
+                <i className="iconfont icon-fabu1" onClick={this.add} />
               </div>
             </header>
             <section>
@@ -199,6 +232,7 @@ class ShowContent extends Component {
                 onKeyDown={event => {
                   this.addComment(event);
                 }}
+                value={this.state.val}
                 onChange={event => {
                   this.setState({
                     val: event.target.value
